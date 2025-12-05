@@ -4,7 +4,6 @@ with open('input', 'r') as file:
     lines = [line.strip() for line in file.readlines()]
     flattened = []
     rowlen = len(lines[0])
-    print("rowlen", rowlen)
     # a list of indices where the initial rolls of paper are stored
     rolls_of_paper = []
     def translate(row, col) -> int:
